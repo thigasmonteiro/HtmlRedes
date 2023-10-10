@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(https://static.vecteezy.com/ti/vetor-gratis/t2/2909372-luxo-abstrato-banner-fundo-moderno-formas-geometricas-e-ouro-linha-arte-papel-de-parede-design-para-site-impressoes-capa-fundo-parede-arte-e-decoracao-de-parede-vetor.jpg);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.search-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 200px;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e92c2c;
+}
+
+.advertisement img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    display: inline-block; /* Define os slides para ficarem em linha */
+    margin-right: 10px; /* Espaçamento entre os slides */
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dois produtos por linha, ajuste conforme necessário */
+    gap: 20px; /* Espaçamento entre os produtos */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.product-image {
+    width: 100px; /* Largura da imagem, ajuste conforme necessário */
+    height: 100px; /* Altura da imagem, ajuste conforme necessário */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
